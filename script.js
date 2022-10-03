@@ -1,5 +1,3 @@
-const timer = document.querySelector('#time span')
-
-setInterval(() => {
-	timer.innerText = new Date().toLocaleString()
-}, 1000)
+// We need to select using query selector or get element by id
+// Then add event   listeners to text area
+// finally convert  the input to html
